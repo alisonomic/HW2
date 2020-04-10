@@ -9,22 +9,115 @@ html, body {
 	height: 100%;
 }
 
-/* selectors for all HTML tags across all pages */
+/* HTML tags */
 /* I will adjust the url below*/
 body {
-	background: url('../images/subtle-background.png') #ffffff; 
+	background: url('../images/subtle-background.png') #f3f1f1; 
 	margin: 0px;
 	padding: 0px;
 
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
-  color: #070707;
+  color: gray;
 }
+
+a {
+	color: #9999A5;
+	text-decoration: none;
+} 
 
 h1, h2 {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	font-weight: bold;
 	font-size: 30px;
-	color: #3faa3f;
+	color: rgb(103, 145, 103);
 }
+
+/* navbar */
+nav {
+	height: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbutton {
+	background: white;
+	height: 100%;
+	padding: 0px 15px;
+
+	transition: all 0.2s linear;
+}
+
+
+/* might not include this element*/
+.hairline {
+	background: lightgray;
+	width: 1px; 
+	height: 100%;
+}
+
+/* header */
+header {
+	background: white;
+	border-bottom: 2px solid gray;
+	max-width: 100%;
+}
+
+#headerbox {
+	width: 960px;
+	height: 90px;
+	margin: 0px auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#headernamebox {
+	background: rgb(103, 145, 103);
+	width: 250px;
+	height: 90px;
+
+	display: flex;
+	align-items: center;
+}
+
+#headertext {
+	margin: auto;
+  color: white;
+}
+
+/* form(section/aside) */
+#form {
+	width: 960px;
+	margin: 38px auto;
+  display: flex;
+	justify-content: space-between;
+}
+
+section, aside {
+	background: white;
+	border: 1px solid #dddddd;
+	width: 588px;
+	padding: 40px 30px 30px 30px;
+}
+
+section p {
+	line-height: 170%;
+}
+
+#sectiondiv {xs
+	background: #dddddd;
+	height: 3px;
+	margin: 30px 0 20px 0;
+}
+
+aside {
+	width: 208px;
+	height: 133px;
+	padding: 30px 30px 35px 30px;
+}
+
+
+
 
