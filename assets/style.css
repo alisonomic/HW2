@@ -120,3 +120,12 @@ section {
 	font-size: 16px;
 	color: #cacccc;
 }
+
+/*index.html */
+
+img {
+	float: left;
+	margin: 10px 30px 10px 0px;
+}
+
+
