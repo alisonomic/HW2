@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-      <Title>Alison the Great</Title>
+    <Title>All About Alison</Title>
 
     <meta charset="UTF-8">
     <!--Responsive-->
@@ -9,43 +9,50 @@
     <!--Boootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="style.css">
-    <!--Reset(not applied due to early errors)-->
-    <link rel="stylesheet" href="rese.css">
-  </head>
-   <body>
-     <header>
-      <div id="headerbox">
-				<div id="headernamebox"><h1 id="headertext">Alison Archer</h1></div>
-        <!--Navbar-->
-        <nav>
-					<div class="navbutton"><p><a href="index.html">About</a></p></div>
-					<div class="hairline"></div>
-					<div class="navbutton"><p><a href="portfolio.html">Portfolio</a></p></div>
-					<div class="hairline"></div>
-					<div class="navbutton"><p><a href="contact.html">Contact</a></p></div>
-				</nav>
-        </div>
-      </header>
-      <!--Boxelement/form-->
+    <link rel="stylesheet" href="assets/style.css">
+    <!--Reset(not applied due to errors w/ font)-->
+    <link rel="stylesheet" href="reset?.css">
+
+    </head>
+      <body>
+        <header>
+          <div id="headerbar">
+            <div id="header-text-box"><h1 id="headertext">Alison Archer</h1></div>
+            <nav>
+              <ul class="navlink"><a href="index.html">About</a></ul>
+              <div class="navline"></div>
+              <ul class="navlink"><a href="portfolio.html">Portfolio</a></ul>
+              <div class="navline"></div>
+              <ul class="navlink"><a href="contact.html">Contact</a></ul>
+            </nav>
+          </div>
+        </header>
+      
+      
+      <!--BoxModel/Form-->
       <div id="form">
         <section>
           <h2>Contact</h2>
           <div id="sectiondiv"></div>
           
           <form>
-            <label>Name</label><br/>
-            <input type="text" name="name" value="John Smith"><br/><br/>
-  
-            <label>Email</label><br/>
-            <input type="email" name="email" value="name@example.com"><br/><br/>
-  
-            <label>Message</label><br/>
-            <textarea name="message"></textarea><br/>
-  
-            <div id="submitbutton"><input type="button" value="Submit"></div>
-          </form>
-        </section>
-     
+            <div class="form-group"><br/>
+              <label for="exampleFormControlInput1">Name</label><br/><br/>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jane Smith"><br/><br/>
+              </div>
+              <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label><br/>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"><br/><br>
+              </div>
+              <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label><br/>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea><br/>
 
-  
+              <button type="button" class="btn btn-secondary">Submit</button>
+              
+            </form>
+          </form>   
+        </section>
+      </body>
+
+      
