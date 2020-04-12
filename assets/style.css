@@ -1,9 +1,9 @@
 
 
-/* all pages(change url) */ 
+/* all pages */ 
 
 body {
-	background: url() #e0e2e1; 
+	background:  #dedfdf; 
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Arial', sans-serif;
@@ -111,15 +111,8 @@ section {
 	color: white;
 }
 
-.form-control {
-	border: 1px solid #ebebeb;
-	width: 564px;
-	margin-top: 7px;
-	padding: 9px;
-	font-family: 'Times New Roman', serif;
-	font-size: 16px;
-	color: #cacccc;
-}
+
+
 
 /*index.html */
 
@@ -128,4 +121,56 @@ img {
 	margin: 10px 30px 10px 0px;
 }
 
+
+/*media queries */
+
+@media screen and (max-width: 980px) {
+
+header {
+	width: 100%;
+	height: 90px;
+}
+	
+#headerbar {
+	width: 768px;
+}
+	
+#form {
+	width: 768px;
+}
+	
+section {
+	width: 350px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	#headerbar{
+	width: 100%;
+	max-width: 550px;
+	float:left;
+}
+	
+#form {
+	width: 75%;
+	max-width: 665px;
+	flex-wrap: wrap;
+}
+	
+section {
+	width: 100%;
+	margin-bottom: 38px;
+}
+
+nav {
+		float:right;
+}
+		
+.nav_link {
+		text-align: right;
+}
+
+}}
+	
 

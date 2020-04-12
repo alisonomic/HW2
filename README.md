@@ -1,1 +1,2 @@
 # HW2
+Responsive Design refers to the ability of a website or application to respond to a user's screen size, platform, device orientation, and behavior. The assignment called for me to use the information gained as well as the resources available to me to deploy an application meeting those standards.
